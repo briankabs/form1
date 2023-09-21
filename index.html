@@ -9,6 +9,12 @@
   <body>
     <div>
       <form action="https://formsubmit.co/843d1f1b24845475890253c91772560a" method="POST">
+        <!-- honeypot -->
+        <input type="text" name="-honey" style="display: none;">
+
+        <!-- disable captcha -->
+        <input type="hidden" name="_captcha" value="false">
+        
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <br>
